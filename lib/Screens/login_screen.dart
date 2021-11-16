@@ -30,13 +30,28 @@ class _LoginScreenState extends State<LoginScreen> {
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
-                      fontSize: 30.0,
+                      fontSize: 40.0,
                     ),
                   ),
                   const SizedBox(
-                    height: 40.00,
+                    height: 10.00,
                   ),
-                  Image.asset("assets/images/login.png"),
+                  Image.asset(
+                    "assets/images/login.png",
+                    height: 150.00,
+                    width: 150.00,
+                  ),
+                  const SizedBox(
+                    height: 10.00,
+                  ),
+                  const Text(
+                    'Sample Code',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.black38,
+                      fontSize: 25.0,
+                    ),
+                  ),
                 ],
               ),
             ),
